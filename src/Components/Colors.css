@@ -1,0 +1,8 @@
+.colorButton {
+    border-radius: 75%;
+    width: 25px;
+    height: 25px;
+    margin: 3px;
+    border: solid 1px grey; /* optional: remove button border */
+    cursor: pointer; /* optional: add pointer cursor */
+}

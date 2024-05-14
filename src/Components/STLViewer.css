@@ -1,0 +1,65 @@
+.STLViewer-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin-top: 70px;
+  }
+  
+  .first-div {
+    display: flex;
+    /* max-width: fit-content; */
+    flex: 8;
+    background-color: #ffffffa9; /* Just for demonstration */
+    margin: 10px;
+    /* width: 80%; */
+    overflow: auto;
+  }
+  
+  .second-div {
+    flex: 2;
+    background-color: #9fa2a3; /* Just for demonstration */
+    margin: 10px;
+    height: 90%;
+    overflow: auto;
+  }
+  
+  .selectedArea {
+    background-color: #f8f9fa;
+    width: 100%;
+    height: 250px;
+    margin: 5px;
+    overflow: auto;
+    position: relative; /* Needed for the absolute positioning of the heading */
+    padding-top: 20px; /* Add padding top to make space for the heading */
+}
+
+.selectedAreaHeading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    z-index: 1; /* Ensure the heading appears above the scrollbar */
+}
+
+
+  .markerSizeButton{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+  }
+  
+  .colorPicker {
+  
+    background-color: #f8f9fa;
+    width: 100%;
+    height: 100px;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+
+}
+
